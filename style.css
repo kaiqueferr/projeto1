@@ -1,0 +1,125 @@
+body
+{
+	background-image: url(Black-White.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  margin: 0;
+	  padding: 0;
+	  min-width: 350px;
+}
+.nnome
+{
+	display: none;
+}
+nav
+{
+    background-color: #424949;
+    height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+nav a{
+	font-size: 16pt;
+	font-family: cursive;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: rgb(184, 184, 184);
+}
+main
+{
+	width: 955px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	background-color: #fff;
+	padding-bottom: 10px;
+}
+
+p,h1
+{
+	margin: 30px;
+	margin-bottom: 0;
+}
+
+img 
+{
+	overflow: hidden;
+	transform: none;
+	width: 400px;
+	height: 200px;
+}
+ .faar:hover img
+{
+	transform: scale(1.1);
+	opacity: 1;
+	z-index: 1;
+}
+
+.faar
+{
+	
+	border:20px;
+	margin: 10px;
+	border-color: black;
+	overflow: hidden;
+	width: 400px;
+	float:right;	
+}
+
+footer
+{
+	background-color: #424949;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white; 
+	text-align: center;
+	
+}
+
+@media screen and (max-width: 955px)
+{
+	nav a
+	{
+		display: none;
+
+	}
+	main
+	{
+		width: 100%;
+	}
+	p
+	{
+		clear: both;
+	}
+
+	img
+	{
+		max-width: 100%;
+		height: auto;
+
+	}
+
+	.faar
+	{
+		text-align: center;
+		width: 100%;
+	}
+	.nnome{
+		display: inline;
+		font-size: 16pt;
+		font-family: cursive;
+		color: white;
+		text-decoration: none;
+	}			
+}
